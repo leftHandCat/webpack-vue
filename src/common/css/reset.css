@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+@font-face {
+  font-family: "SourceHanSansCN";
+  src: url('../fonts/SourceHanSansCN-Regular.ttf'); /* IE9*/
+} 
+body { 
+  background-size: cover;
+  font-family: "SourceHanSansCN";
+  color: #333;
+}
+header, main {
+  display: block;
+}
